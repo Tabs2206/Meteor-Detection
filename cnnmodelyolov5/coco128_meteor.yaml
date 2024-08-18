@@ -1,0 +1,10 @@
+train: /content/drive/MyDrive/class_meteor/images/train # path to training images
+val: /content/drive/MyDrive/class_meteor/images/val  # path to validation images
+test: /content/drive/MyDrive/class_meteor/images/test  # path to test images (optional)
+
+
+nc: 1  # number of classes
+names: ['meteor']  # class names
+
+
+
