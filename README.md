@@ -31,3 +31,11 @@ The image shown below shows the image before preprocessing
 
 <img width="505" alt="image" src="https://github.com/user-attachments/assets/294a2215-b43f-4017-ae15-f39e02b6da01">
 
+After cropping and preprocessing the images. The code for the same is give in the below 
+**Folder**
+preprocessing_images
+
+**File Name**
+Image_Preprocessing(Cropping).ipynb
+
+
