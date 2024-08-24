@@ -32,8 +32,8 @@ The image shown below shows the image before preprocessing
 <img width="505" alt="image" src="https://github.com/user-attachments/assets/294a2215-b43f-4017-ae15-f39e02b6da01">
 
 After cropping and preprocessing the images. The code for the same is give in the below 
-**Folder 1**
-preprocessing_images
+# **Folder 1**
+## preprocessing_images
 
 **File Name**
 Image_Preprocessing(Cropping).ipynb - File have lots of data due to which it is not available on GitHub
@@ -44,9 +44,9 @@ After cropping the images we tried to label the data using python but was not ab
 The reason the image pixel is 860X538 because we just cropped and remove the frequency time maps which is not required for our detection.
 
 
-**Folder 2**
+# **Folder 2**
 
-labelledData
+## labelledData
 
 (i) Contains the labelled data for Meteor in 
 
@@ -144,11 +144,11 @@ labelledData/multi-classLabels/labels/train
 labelledData/multi-classLabels/labels/unseen
 
 
-**Folder 3**
+# **Folder 3**
 
 The meteor detection model is defined in 
 
-modelyolov5
+## modelyolov5
 
 The model can be run through google colab as accessible in 
 
@@ -176,7 +176,7 @@ modelyolov5/output1.png
 
 The meteor detection model is defined in 
 
-aircraft_model
+## aircraft_model
 
 The model can be run through google colab as accessible in 
 
@@ -198,6 +198,30 @@ aircraft_model/best.pt
 aircraft_model/output1.png
 
 **Folder 5**
+The U-Net model is defined in 
+
+## u-netmodel
+
+The working U-Net model is defined in 
+
+u-netmodel/ModelWithPolygonData_(1).ipynb
+
+
+The PR-Curve is defined in
+
+u-netmodel/PR-Curve_unet.png
+
+
+The confusion matrix is defined in
+u-netmodel/confusion_matrix_unet.png
+
+The ROC Curve is given in 
+u-netmodel/ROC_curve_unet.png
+
+The prediction layer defined in 
+
+u-netmodel/Predictionon3layer.png
+
 
 
 
