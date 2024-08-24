@@ -1,0 +1,8 @@
+train: /content/drive/MyDrive/class_aircraft/images/train # path to training images
+val: /content/drive/MyDrive/class_aircraft/images/val   # path to validation images
+test:     # path to test images (optional)
+
+
+nc: 1  # number of classes
+names: ['aircraft_curve']  # class names
+
